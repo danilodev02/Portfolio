@@ -1,0 +1,49 @@
+.Home {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    width: 50%;
+    height: 20%;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.column {
+    width: 55%;
+    display: flex;
+    justify-content: center;
+}
+
+.home-left {
+    align-items: start;
+}
+
+.home-right {
+    align-items: end;
+}
+
+.home-left p {
+    background-color: var(--color-principal-blue);
+    width: 100%;
+    
+}
+
+.home-right p {
+    background-color: var(--color-principal-purple);
+    width: max-content;
+}
+
+.Home p {
+    font-size: 40px;
+    text-align: center;
+    height: max-content;
+    padding: 6px;
+    border-radius: 25px;
+    font-size: 40px;
+}

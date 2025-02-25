@@ -1,0 +1,13 @@
+.pdf-viewer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .navigation {
+    margin-top: 10px;
+  }
+  
+  button {
+    margin: 0 5px;
+  }
